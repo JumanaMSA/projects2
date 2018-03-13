@@ -1,0 +1,23 @@
+4 10 2
+
+Add_Flight SA220 Jeddah Makkah 416 8 450
+Add_Passenger Saud_Ahmad 25 M 053547099
+Add_Flight SA230 Dammam Jeddah 416 10 550
+Add_Flight SA760 Jeddah London 868 10 4500
+Add_Flight SA222 Jeddah London 868 10 4500
+Add_Flight SA333 Jeddah London 868 10 4500
+Add_Passenger Sara_Ali 22 F 0535492393
+Add_Passenger Samia_Samer 27 F 054567383
+Add_Passenger Faisal_Ahmad 30 M 033293923
+Make_Booking SA760 3 Saud_Ahmad Sara_Ali Samia_Samer
+Add_Passenger ahlam_Ali 30 M 033293923
+Add_Passenger wed_Samer 30 M 033293923
+Make_Booking SA760 2 ahlam_Ali wed_Samer
+Make_Booking SA230 3  Saud_Ahmad Faisal_Ahmad Sara_Ali
+Make_Booking SA230 2 Faisal_Ahmad Sami_Mohammed
+Make_Booking SA760 3 hala_Ahmad Sara_Ali Samia_Samer
+Search_Print JED100
+Search_Print LND103
+Flight_Status SA760
+Flight_Status SA70
+Quit
